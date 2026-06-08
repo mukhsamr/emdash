@@ -3,23 +3,27 @@
 	"name": "emdash",
 	"main": "./src/worker.ts",
 	"compatibility_date": "2026-02-24",
-	"compatibility_flags": ["nodejs_compat"],
+	"compatibility_flags": [
+		"nodejs_compat"
+	],
 	"d1_databases": [
 		{
 			"binding": "DB",
-			"database_name": "emdash-db","database_id": "9eb40ce8-d57a-4aea-9d7d-5527958a67db",
-		},
+			"database_name": "emdash-db",
+			"database_id": "9eb40ce8-d57a-4aea-9d7d-5527958a67db"
+		}
 	],
 	"r2_buckets": [
 		{
 			"binding": "MEDIA",
-			"bucket_name": "emdash-media","preview_bucket_name": "emdash-media",
-		},
+			"bucket_name": "emdash-media",
+			"preview_bucket_name": "emdash-media"
+		}
 	],
 	// Worker Loader for plugin sandboxing
-	"worker_loaders": [
-		{
-			"binding": "LOADER",
-		},
-	],
+	// "worker_loaders": [
+	// 	{
+	// 		"binding": "LOADER"
+	// 	}
+	// ]
 }
