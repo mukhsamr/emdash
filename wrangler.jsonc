@@ -10,7 +10,7 @@
 		{
 			"binding": "DB",
 			"database_name": "emdash-db",
-			"database_id": "1f1479b0-78f5-41a2-a75f-f2ad951a6670"
+			"database_id": "041838e2-29ff-4965-8fb0-a7c3a5ab46a2"
 		}
 	],
 	"r2_buckets": [
@@ -23,7 +23,7 @@
 	"kv_namespaces": [
 		{
 			"binding": "SESSION",
-			"id": "4c61e42570804d5cbd51183167f5e7a8"
+			"id": "4330894f2bc5420ba0d335f57d5026bf"
 		}
 	]
 	// Worker Loader for plugin sandboxing
